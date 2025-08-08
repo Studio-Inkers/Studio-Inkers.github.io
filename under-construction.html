@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Construction</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+    body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+    }
+    .center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  width: 100vw;
+  max-height: 80vh;
+  position: relative;
+  z-index: 1;
+    }
+    .center-img img {
+      max-width: 80vw;
+      max-height: 80vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      display: block;
+      margin: auto;
+      filter: drop-shadow(0 0 32px #0008);
+    }
+    .bottom-text {
+  width: 100vw;
+  text-align: center;
+  color: #222;
+  font-size: 2vw;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  z-index: 2;
+  letter-spacing: 0.05em;
+  margin-bottom: 4vh;
+    }
+    @media (max-width: 600px) {
+      .center-img img {
+        max-width: 95vw;
+        max-height: 40vh;
+      }
+      .bottom-text {
+        font-size: 4vw;
+        margin-bottom: 2vh;
+      }
+    }
+    @media (max-width: 1024px) and (min-width: 601px) {
+      .bottom-text {
+        font-size: 2.8vw;
+      }
+    }
+        .logo-bar {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2vh;
+    }
+    .logo-bar img {
+  max-width: 120px;
+  width: 22vw;
+      height: auto;
+      opacity: 0.95;
+      margin-top: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-img">
+    <img src="assets/UnderConstruction.png" alt="Under Construction" />
+  </div>
+  <div class="bottom-text">
+    Need to contact us?<br>
+    Email: studioinkers@gmail.com<br>
+    Phone no: XXXXX XXXXX
+  </div>
+  <div class="logo-bar">
+    <img src="assets/Studio-Inkers_Horizontal.png" alt="Studio Inkers Logo" />
+  </div>
+
+</body>
+</html>
